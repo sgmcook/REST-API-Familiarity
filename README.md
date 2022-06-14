@@ -5,7 +5,6 @@ HTTP requests typically have 3 parts:
 2) Metadata about the verb
 3) Content related specifically to the verb
 
-=============================================
 REQUESTS
 =============================================
 VERBS:
@@ -41,15 +40,14 @@ CONTENT:
 HTML, BLOBS, text, etc. 
 
 
-=============================================
-Using this in practice
+USING THIS IN PRACTICE
 =============================================
 The key thing to know is that unlike connections you're used to, the connections of a HTTP connection are only maintained
 as long as the request takes to either complete, or time out. It's not maintained the whole time. 
 
 About passing messages
 
-=============================================
+
 REST
 =============================================
 Leans on the benefits of rest
