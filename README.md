@@ -59,3 +59,42 @@ Transfer of data or state representational of the kinds of messages you want to 
 - Cacheable
 - URI interface
 
+API RULES
+=============================================
+Once you make an API and have people using it, you're stuck with it
+You don't want to sink into adding adhoc requirements 
+Understand your requirements
+APIs should mature in beneficial ways for everyone
+
+API PARTS
+=============================================
+URI - path on webserver
+VERB - action on that URI
+Headers - 
+Request body
+
+Status 
+Headers
+Response body
+
+URIs are just paths to resources
+Query strings are added to the end of URIs /optional
+Formatting, sorting, searching
+Nouns are your endpoints, and the API can action those nouns
+
+Resources
+Collection of nouns (users, payments, etc.)
+Are they just entities? 
+People are a type of resource, but there are nested objects (e.g. payments have IDs, etc. etc. )
+JSON is pretty good at conceptialising this
+
+Identifiers
++ each URI should point to a specific resource
++ Do not need primary keys but they do need unique identifiers
++ YOU WANT TO GET AWAY FROM PRIMARY KEYS
++ URIs are read by people so you want to structure your values in such a way that people can read them
+
+Query strings
++ 
+
+=============================================
