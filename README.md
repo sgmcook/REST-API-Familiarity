@@ -15,6 +15,8 @@ VERBS:
 + DELETE: Remove resource
 + more...
 
+Typically verbs are gatekept by your access
+
 HEADERS: 
 Name/Value pairs
 Type of content (json, binary, etc.,)
@@ -95,6 +97,8 @@ Identifiers
 + URIs are read by people so you want to structure your values in such a way that people can read them
 
 Query strings
-+ 
++ Non-resource properties, e.g. names, pages, formats
++ how the resource is returned basically
 
+URIs in design
 =============================================
