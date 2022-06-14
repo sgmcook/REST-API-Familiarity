@@ -29,7 +29,6 @@ HTML, JSON, etc.
 Content is verb specific 
 Information to help fulfil the verb (e.g. you won't send content if you're asking a GET request because you want something)
 
-=============================================
 RESPONSE
 =============================================
 STATUS CODE: 
