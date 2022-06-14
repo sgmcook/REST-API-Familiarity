@@ -42,3 +42,23 @@ CONTENT:
 HTML, BLOBS, text, etc. 
 
 
+=============================================
+Using this in practice
+=============================================
+The key thing to know is that unlike connections you're used to, the connections of a HTTP connection are only maintained
+as long as the request takes to either complete, or time out. It's not maintained the whole time. 
+
+About passing messages
+
+=============================================
+REST
+=============================================
+Leans on the benefits of rest
+Representational State Transfer
+
+Transfer of data or state representational of the kinds of messages you want to use
+- Separation of client and server
+- Server requests are stateless (they don't persist outside of the message/response)
+- Cacheable
+- URI interface
+
