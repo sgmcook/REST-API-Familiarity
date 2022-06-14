@@ -9,11 +9,11 @@ HTTP requests typically have 3 parts:
 REQUESTS
 =============================================
 VERBS:
-GET: Request a resource from the server
-POST: Create a resource on the server
-PUT: Update an already existing resource
-PATCH: Partial update of an object
-DELETE: Remove resource
++ GET: Request a resource from the server
++ POST: Create a resource on the server
++ PUT: Update an already existing resource
++ PATCH: Partial update of an object
++ DELETE: Remove resource
 + more...
 
 HEADERS: 
