@@ -18,7 +18,7 @@ VERBS:
 Typically verbs are gatekept by your access
 
 HEADERS: 
-Name/Value pairs
+Name/Value pairs__
 Type of content (json, binary, etc.,)
 Content length so the server has an idea
 Auth: who's making the call
