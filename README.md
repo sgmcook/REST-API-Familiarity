@@ -122,4 +122,13 @@ GENERIC THINGS
 + Given the prevelence of JSON, it's probably wise to use that but if you do, make sure you're using casing that JScript devs will be using
 + Be consistent across your endpoints
 + Think about paging data as you don't want to flood requestors with all the data
++ Think about what properties you DON'T want to include
 
+HYPERMEDIA & REST
+=============================================
++ Allows results to be self-describing
++ Allows programmatic navigation
+
+E.G. returning collection but you can also have a set of links (_links) which describe our objects so that software can navigate to them more easily
+
+image.png
