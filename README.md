@@ -131,4 +131,3 @@ HYPERMEDIA & REST
 
 E.G. returning collection but you can also have a set of links (_links) which describe our objects so that software can navigate to them more easily
 
-image.png
