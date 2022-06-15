@@ -17,7 +17,7 @@ VERBS:
 
 Typically verbs are gatekept by your access
 
-HEADERS: 
+HEADERS:<br>
 Name/Value pairs<br>
 Type of content (json, binary, etc.,)<br>
 Content length so the server has an idea<br>
@@ -25,7 +25,7 @@ Auth: who's making the call<br>
 Accept: when you send me a response, what can I accept<br>
 cookie: passenger data<br>
 
-CONTENT: 
+CONTENT:<br>
 HTML, JSON, etc.<br>
 Content is verb specific <br>
 Information to help fulfil the verb (e.g. you won't send content if you're asking a GET request because you want something)<br>
