@@ -120,3 +120,6 @@ GENERIC THINGS
 + Don't expose unecessary server side details
 + You want to design your api in a method that's understandable for your likely clientelle
 + Given the prevelence of JSON, it's probably wise to use that but if you do, make sure you're using casing that JScript devs will be using
++ Be consistent across your endpoints
++ Think about paging data as you don't want to flood requestors with all the data
+
