@@ -38,3 +38,27 @@ Caching
 =============================================
 Basic tenet of rest
 Server side can cache, but it's not super restful
+
+Basically, let's say I make a request but nothing has changed since the last time I tried to get it
+I can pass the version I'm looking for, and if the version hasn't changed since then I respond with
+304 not modified to point that out. That way my server doesn't have to go and get the actual info
+
+Basically using headers/metadata to determine whether or not an operation even needs to happen
+Strong caching = this value will be valid for a good long time
+Weak caching = this value is only valid for a short time
+
+We return eTags in our response to that any requests can provide it back 
+
+Functional APIs
+=============================================
++ pragmatic
++ Does an actual function/operational
++ Not actually restful
++ Can bake them into the API but you HAVE TO document them
++ Not an excuse to build an RPC layer
+
+You want to ensure that you're not exposing commands that you only want your devs to use
+
+Async APIs
+=============================================
++ Some APIs aren't restful
