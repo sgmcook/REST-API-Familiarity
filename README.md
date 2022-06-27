@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/sgmcook/REST-API-Familiarity/blob/main/learning-resources/wip.png" alt="Sublime's custom image"/>
+</p>
+
+
 ![](learning-resources/wip.png)
 
 + [What is rest](learning-resources/01_what_is_rest.md)
