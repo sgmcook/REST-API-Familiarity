@@ -3,4 +3,4 @@
 + [Designing a restful api](learning-resources/02_designing_a_restful_api.md)
 + [Handling more complex scenarios in your API](learning-resources/03_handling_more_complex_scenes.md)
 
-![](https://github.com/sgmcook/REST-API-Familiarityy/blob/main/learning-resources/wip.png?raw=true)
+![](learning-resources/wip.png)
